@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'tegaki';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/font/yosugara.woff) format('woff');
+}
+
+.tegaki {
+    font-family: 'tegaki';
+}
+
+@font-face {
+    font-family: 'gosic';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/font/YasashisaGothicBold-V2.woff) format('woff');
+}
+
+.gosic {
+    font-family: 'gosic';
+}
+
+@font-face {
+    font-family: 'kowai';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/font/g_comichorrorR_freeR.woff) format('woff');
+}
+
+.kowai {
+    font-family: 'kowai';
+}
