@@ -8,9 +8,9 @@
     <title>【公式】あんとの自己紹介!!</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <link href="../css/page.css" rel="stylesheet">
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/font.css" rel="stylesheet">
-    <link href="../css/pc-only.css" rel="stylesheet">
     <link href="../css/pop.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="../assets/img/あ.png">
     <script type="text/javascript" src="/js"></script>
@@ -20,16 +20,16 @@
 </head>
 
 <body id="top" class="gosic id">
-    <header>
+    <header class="page">
         <ul>
             <center>
-                <li><a class="white nobottomline" href="/">ぐるぐる</a></li>
-                <li><a class="white nobottomline" href="#top">一番上</a></li>
+                <li><a class="white nobottomline" href="../page=/著作権について">ぐるぐる</a></li>
                 <li><a class="white nobottomline" href="../">トップページ</a></li>
+                <li><label class="white nobottomline open" for="pop-up-1">その他</label></li>
             </center>
         </ul>
     </header>
-    <img class="contents resizeimage topimg" src="../assets/text-img/著作権について.png" alt="">
+    <img class="contents resizeimage top-img-margin" src="../assets/text-img/著作権について.png" alt="">
     <div class="contents id invalid-740px" id="self-introduction" align="center">
         <h1 class="head">著作権</h1>
 
@@ -54,9 +54,41 @@
                 </table>
             </center>
         </div>
-
     </div>
+    <!--1-pop-->
+    <div>
+        <input type="checkbox" id="pop-up-1">
+        <div class="overlay">
+            <div class="window">
+                <label class="close" for="pop-up-1">×閉じる</label>
+                <br>
+                <div class="text-mar">
+                    <h2 class="text">メニュー</h2>
+                    <h2>
+                        <li><a class="black nobottomline text" href="../page=/著作権について">ぐるぐる</a></li>
+                    </h2>
+                    <h2>
+                        <li><a class="black nobottomline" href="#top">一番上</a></li>
+                    </h2>
+                    <h2>
+                        <li><a class="black nobottomline" href="#self-introduction">自己紹介</a></li>
+                    </h2>
+                    <h2>
+                        <li><a class="black nobottomline" href="../pdf/site-making1.pdf">サイトの作成PDF</a></li>
+                    </h2>
+                    <h2>
+                        <li><label class="black nobottomline open" for="pop-up-2">translate</label></li>
+                    </h2>
+                </div>
 
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        if (screen.width <= 220) {
+            document.location = "../error/px-error.html";
+        }
+    </script>
     <footer class="" id="footer">
         <p>&copy; 2020~2021 All rights reserved by anto.</p>
     </footer>
